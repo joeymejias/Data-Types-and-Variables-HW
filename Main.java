@@ -3,6 +3,7 @@
  * Please complete the code per the instructions below.
  *
  * Created by charlie on 6/20/16.
+ * Completed by Joey on 6/20/16
  */
 
 public class Main {
@@ -20,18 +21,18 @@ public class Main {
          * Hint 2 - try running the code (right click on this file and select "Run Main.main()" and if you get
          * zero errors then your data types and values all match up
          */
-        ___ varA = 3;
-        ___ varB = 9.75;
-        ___ varC = 4.0;
-        ___ varD = 2.;
-        ___ varE = 8573f;
-        ___ varF = "Gelato is delicious!";
-        ___ varG = '$';
-        ___ varH = "$";
-        ___ varI = true;
-        ___ varJ = (2 == 3);
-        ___ varK = Integer.valueOf("9,235");
-        ___ varL = varF.equals("Gelato is delicious!");
+        short varA = 3;
+        double varB = 9.75;
+        double varC = 4.0;
+        double varD = 2.0;
+        float varE = 8573f;
+        String varF = "Gelato is delicious!";
+        char varG = '$';
+        String varH = "$";
+        boolean varI = true;
+        boolean varJ = (2 == 3);
+        int varK = Integer.valueOf("9,235");
+        boolean varL = varF.equals("Gelato is delicious!");
 
 
         /**
@@ -43,8 +44,8 @@ public class Main {
          * be done in separate lines of code.
          */
 
-        ___ price;
-        price = ___;
+        double price;
+        price = 200.00;
 
 
         /**
@@ -52,7 +53,7 @@ public class Main {
          * give it an initial value of "placeholder comment" all in one line of code.
          */
 
-        ___ comment = ___;
+        String comment = "placeholder comment";
 
 
         /**
